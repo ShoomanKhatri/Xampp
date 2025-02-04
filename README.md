@@ -30,8 +30,6 @@
   $cfg['Servers'][$i]['port'] = '3307';
   ```
 
-  ---
-
 ## 3. Fix MySQL Access Denied
 ### a) Reset Root Password
 1. Stop MySQL:
@@ -89,6 +87,8 @@
 - Try accessing **phpMyAdmin** again.
 
 ### ✅ Issue should be resolved! 🚀
+
+---
 
 
 ### XAMPP Apache Port 80 Error
