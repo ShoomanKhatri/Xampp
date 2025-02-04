@@ -4,7 +4,7 @@
 
 
 
-🚀 # Fix MySQL Access Denied & Port Issues 🚀
+ # Fix MySQL Access Denied & Port Issues 🚀
 
 ## 1. Check MySQL Service Status
 - **Windows (XAMPP):** Open XAMPP and start MySQL.
