@@ -4,7 +4,7 @@
 
 
 
-# Fix MySQL Access Denied & Port Issues
+🚀 # Fix MySQL Access Denied & Port Issues 🚀
 
 ## 1. Check MySQL Service Status
 - **Windows (XAMPP):** Open XAMPP and start MySQL.
@@ -91,7 +91,7 @@
 ---
 
 
-### XAMPP Apache Port 80 Error
+🚀 ### XAMPP Apache Port 80 Error 🚀
 
 **Issue:**
 - Apache fails to start due to Port 80 being already in use by another process with PID 4.
@@ -117,7 +117,9 @@
 
 This should resolve the conflict and allow Apache to start successfully.
 
-# **How to Fix MySQL Unexpected Shutdown Error in XAMPP**
+---
+
+🚀 # **How to Fix MySQL Unexpected Shutdown Error in XAMPP** 🚀
 
 ## **Overview**
 If MySQL in XAMPP unexpectedly shuts down, it may be due to corruption in database files. The following steps will guide you through resolving this issue by preserving essential files and restoring backups.
