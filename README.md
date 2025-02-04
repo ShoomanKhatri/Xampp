@@ -82,3 +82,30 @@
 
 ### ✅ Issue should be resolved! 🚀
 
+
+### XAMPP Apache Port 80 Error
+
+**Issue:**
+- Apache fails to start due to Port 80 being already in use by another process with PID 4.
+  
+**Solution:**
+1. **Identify Blocking Application:**
+   - Port 80 is commonly used by services like Skype, IIS, or other applications.
+   - Open **Task Manager** and look for the process with PID 4. This might be the system's HTTP service or another application using Port 80.
+
+2. **Disable or Reconfigure the Blocking Application:**
+   - **Skype:** Go to Skype settings > Advanced > Connection and uncheck "Use port 80 and 443 for incoming connections."
+   - **IIS (Internet Information Services):** Disable IIS or stop the World Wide Web Publishing Service from the **Services** tab.
+
+3. **Reconfigure Apache to Use a Different Port:**
+   - Open the **httpd.conf** file in the XAMPP directory (`C:\xampp\apache\conf\httpd.conf`).
+   - Change the line `Listen 80` to `Listen 8080` (or any other available port).
+   - Change the line    `ServerName localhost:80` to `ServerName localhost:8080`.
+   - Save and restart Apache.
+
+**Note:** If you change the port, remember to update the XAMPP Control Panel and your browser's URL to `http://localhost:8080` (or your chosen port).
+
+---
+
+This should resolve the conflict and allow Apache to start successfully.
+
