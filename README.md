@@ -91,7 +91,7 @@
 ---
 
 
- # XAMPP Apache Port 80 Error 🚀
+ # XAMPP Apache Port 80 Error 
 
 **Issue:**
 - Apache fails to start due to Port 80 being already in use by another process with PID 4.
