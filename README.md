@@ -1,3 +1,7 @@
+# Table of Contents
+- [# Fix MySQL Access Denied & Port Issues](# Fix MySQL Access Denied & Port Issues)
+- [### XAMPP Apache Port 80 Error](### XAMPP Apache Port 80 Error)
+
 # Fix MySQL Access Denied & Port Issues
 
 ## 1. Check MySQL Service Status
